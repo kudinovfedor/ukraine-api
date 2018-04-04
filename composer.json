@@ -1,0 +1,39 @@
+{
+    "name": "kudinovfedor/ukraine-api",
+    "description": "PHP wrapper for API ukraine.com.ua",
+    "type": "library",
+    "keywords": ["php library", "ukraine.com.ua", "api", "ukraine", "hosting", "cloud"],
+    "homepage": "https://joompress.biz",
+    "require": {
+        "php": ">=7.0.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "license": "MIT",
+    "support": {
+        "email": "admin@joompress.biz",
+        "issues": "https://github.com/kudinovfedor/ukraine-api/issues",
+        "source": "https://github.com/kudinovfedor/ukraine-api"
+    },
+    "authors": [
+        {
+            "name": "Kudinov Fedor",
+            "email": "admin@joompress.biz",
+            "homepage": "https://joompress.biz",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "KudinovFedor\\AdmTools\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KudinovFedor\\AdmTools\\AdmToolsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
